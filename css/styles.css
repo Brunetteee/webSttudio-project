@@ -264,7 +264,7 @@ img {
     column-gap: 24px;
 }
 
-.our-portfolio-list li{
+.our-portfolio-card {
     width: calc((100% - 48px) / 3);
 }
 
