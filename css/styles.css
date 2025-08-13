@@ -61,7 +61,7 @@ a {
     color: #404bbf ;
 }
 
-.adderss {
+.address {
      font-style: normal;
 }
 
@@ -91,9 +91,9 @@ a {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size:1.5;
+    font-size:56px;
     letter-spacing: 0.04em;
-    line-height: 24px;
+    line-height: 1.5;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -147,7 +147,7 @@ a {
   padding-left: 65px;
 }
 
-.our-team-card-h3 {
+.our-team-card-h {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -174,7 +174,7 @@ a {
     color: #2E2F42;
 }
 
-.our-portfolio-card-h3 {
+.our-portfolio-card-h {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
