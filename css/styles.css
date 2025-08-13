@@ -101,7 +101,7 @@ img {
     padding: 188px 0;
 }
 
-.hero-banner-h1 {
+.hero-banner-text {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -140,15 +140,16 @@ img {
 /* --------Feature Styles-------- */
 
 .visually-hidden {
-  position: absolute;   
-  width: 1px;           
-  height: 1px;          
-  padding: 0;
-  margin: -1px;         
-  overflow: hidden;     
-  clip: rect(0, 0, 0, 0); 
-  white-space: nowrap;  
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .feature-container.container{
@@ -157,6 +158,10 @@ img {
 
 .feature {
     padding: 120px 0
+}
+
+.feature-item {
+    width: calc((100% - 72px) / 4); 
 }
 
 .feature-list {
@@ -188,7 +193,7 @@ img {
     padding: 120px 0
 }
 
-.our-team-h2 {
+.our-team-text {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -238,11 +243,10 @@ img {
 /* -------Our Portfolio Styles-------- */
 
 .our-portfolio {
-     padding-top: 120px; 
-     padding-left: 80px;
+     padding: 120px 0 120px 0
 }
 
-.our-portfolio-h2 {
+.our-portfolio-text {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -257,7 +261,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
-    column-gap: 19px;
+    column-gap: 24px;
 }
 
 .our-portfolio-card {
@@ -271,7 +275,7 @@ img {
 
 }
 
-.our-portfolio-card-h {
+.our-portfolio-card-text {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
