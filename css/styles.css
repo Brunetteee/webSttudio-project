@@ -68,7 +68,7 @@ a {
     background-color: #2E2F42;
 }
 
-.hero-banner-h1 {
+.hero-banner-text{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -125,7 +125,7 @@ a {
     background-color: #F4F4FD;
 }
 
-.our-team-h2 {
+.our-team-text {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -161,7 +161,7 @@ a {
 
 /* -------Our Portfolio Styles-------- */
 
-.our-portfolio-h2 {
+.our-portfolio-text {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -170,7 +170,7 @@ a {
     color: #2E2F42;
 }
 
-.our-portfolio-card-h {
+.our-portfolio-card-text {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -198,6 +198,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color:#4d5ae5;
+  font-size: 18px;
 }
 
 .footer-iris {
