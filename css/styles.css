@@ -1,4 +1,4 @@
-body{
+*{
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color:#FFFFFF;
@@ -13,16 +13,10 @@ a {
 
 /* --------Header Styles-------- */
 
-.header-nav{
-    font-size: 18px;
-    line-height: 21px;
-    color: #2E2F42;
-}
-
 .iris {
     color: #2E2F42;
 }
-.header-logo{
+.header-logo {
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -31,9 +25,9 @@ a {
   color:#4d5ae5;
 }
 
-.header-nav-a{
-    color: #2E2F42;
+.header-nav-a {
     font-weight: 500;
+    color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -47,27 +41,27 @@ a {
 .header-nav-a:focus {
     color: #404bbf ;
 }
-.header-address{
+.header-address-a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.header-address:hover {
+.header-address-a:hover {
     color: #404bbf;
 }
-.header-nav-a:focus {
+.header-address-a:focus {
     color: #404bbf ;
 }
 
-.address {
+.header-address {
      font-style: normal;
 }
 
 /* -----Hero-Baner Styles-------- */
 
-.hero-banner {
+.hero-banner-conteiner {
     background-color: #2E2F42;
 }
 
@@ -106,8 +100,7 @@ a {
 }
 /* --------Feature Styles-------- */
 
-.feature-conteiner {
-}
+
 
 .feature-item-h{
     font-weight: 500;
@@ -125,7 +118,7 @@ a {
 
 /* -------Our Team Styles--------  */
 
-.our-team {
+.our-team-conteiner {
     background-color: #F4F4FD;
 }
 
@@ -191,7 +184,7 @@ a {
 
 /* -------Footer Styles-------- */
 
-.footer {
+.footer-conteiner {
     background-color: #2E2F42;
 }
 
