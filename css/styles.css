@@ -27,7 +27,12 @@ img {
 .header-container.container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    
+
 }
 
 .iris {
