@@ -61,7 +61,7 @@ a {
 
 /* -----Hero-Baner Styles-------- */
 
-.hero-banner-conteiner {
+.hero-banner{
     background-color: #2E2F42;
 }
 
@@ -118,7 +118,7 @@ a {
 
 /* -------Our Team Styles--------  */
 
-.our-team-conteiner {
+.our-team{
     background-color: #F4F4FD;
 }
 
@@ -184,7 +184,7 @@ a {
 
 /* -------Footer Styles-------- */
 
-.footer-conteiner {
+.footer {
     background-color: #2E2F42;
 }
 
