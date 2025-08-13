@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+    color: #434455;
+    background-color:#FFFFFF;
 }
 ul,
 li {
@@ -48,13 +48,10 @@ a {
     color: #404bbf ;
 }
 .header-address{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    display: flex;
-    gap:40px;
 }
 
 .header-address:hover {
@@ -64,11 +61,13 @@ a {
     color: #404bbf ;
 }
 
+.adderss {
+     font-style: normal;
+}
+
 /* -----Hero-Baner Styles-------- */
 
 .hero-banner {
-    width: 1440px;
-    height: 600px;
     background-color: #2E2F42;
 }
 
