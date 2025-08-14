@@ -21,7 +21,7 @@ img {
 }
 
 .container {
-    width: 1128px;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -57,7 +57,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color:#4d5ae5;
-  margin-right: 76px
+  margin-right: 76px;
+  padding: 24px;
 }
 
 .header-nav {
@@ -67,6 +68,7 @@ img {
 
 .header-nav-list {
     display: flex;
+    align-items: center;
     gap: 40px
 }
 
@@ -90,6 +92,7 @@ img {
 
 .header-address-list {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
@@ -109,6 +112,7 @@ img {
 
 .header-address {
      font-style: normal;
+     margin: auto;
 }
 
 /* -----Hero-Baner Styles-------- */
@@ -207,7 +211,7 @@ img {
 
 .our-team{
     background-color: #F4F4FD;
-    padding: 120px 0
+    padding: 120px 0;
 }
 
 .our-team-text {
@@ -219,13 +223,11 @@ img {
     color: #2E2F42;
     text-transform: capitalize;
     margin-bottom: 72px;
-    padding-left: 170px;
 }
 
 .our-team-list {
     display: flex;
     gap: 24px;
-    padding-left: 200px;
 }
 
 .our-team-card {
