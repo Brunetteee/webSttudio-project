@@ -1,6 +1,8 @@
-body{
+body {   
     font-family: 'Roboto', sans-serif;
     color: #434455;
+}
+
 ul,
 li {
     list-style-type: none;
