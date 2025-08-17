@@ -1,7 +1,6 @@
-*{
+body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
-}
 ul,
 li {
     list-style-type: none;
@@ -36,6 +35,7 @@ img {
 
 .header-container{
     display: flex;
+    align-items: center;
 }
 
 .iris {
@@ -48,8 +48,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color:#4d5ae5;
-  margin-right: 76px;
   padding: 24px;
+  font-size: 18px;
 }
 
 .header-nav {
@@ -73,6 +73,7 @@ img {
     color: #2e2f42;
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
 }
 
 .header-nav-a:hover,
@@ -85,17 +86,6 @@ img {
 
 .header-nav-a.current {
     position: relative; 
-}
-
-.header-nav-a.current::before {
-    content: " ";
-    width: 100%;
-    height: 4px;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    background-color: #404bbf;
-    border-radius: 2px;
 }
 
 .header-nav-a.current::after {
@@ -125,7 +115,9 @@ img {
 
 .header-address {
      font-style: normal;
-     margin: auto;
+     margin-left:332px ;
+     padding: 24px 0;
+     display: block;
 }
 
 /* -----Hero-Baner Styles-------- */
@@ -148,7 +140,8 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
-    padding-left: 370px;
+    margin: auto;
+    margin-bottom: 48px;
 }
 
 .hero-banner-button {
@@ -167,7 +160,7 @@ img {
     display: block;
     min-width: 169px;
     height: 56px;
-    margin-left: 525px;
+    margin: auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -200,12 +193,12 @@ img {
 
 .feature-item {
     width: calc((100% - 72px) / 4); 
+    flex-basis: calc((100% - 72px) / 4)
 }
 
 .feature-list {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4)
 }
 
 .feature-item-h{
@@ -269,6 +262,7 @@ img {
 
 .our-team-card-text {
   padding: 32px 0;
+
 }
 
 .our-team-card-social-list {
@@ -318,6 +312,7 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 
@@ -335,7 +330,6 @@ img {
     text-transform: capitalize;
     color: #2E2F42;
     margin-bottom: 72px;
-    padding-left: 50px;
 }
 
 .our-portfolio-list {
