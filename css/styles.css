@@ -99,7 +99,11 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+}
+
+
+.for-a{
+ color: #434455;
 }
 
 .header-address-a:hover {
@@ -112,6 +116,7 @@ img {
 .header-address {
      font-style: normal;
      margin-left: auto;
+     
 }
 
 /* -----Hero-Baner Styles-------- */
@@ -173,10 +178,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.feature-container.container{
-    padding-left: 120px;
 }
 
 .feature {
