@@ -111,9 +111,11 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.for-a {
+    color: #434455;
 }
 
 .header-address {
@@ -344,6 +346,10 @@ img {
 
 .our-portfolio-card {
     width: calc((100% - 48px) / 3);
+}
+
+.our-portfolio-card:hover,
+.our-portfolio-card:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -494,9 +500,10 @@ img {
     position: relative;
     width: 408px;
     height: 80%;
-    max-height: 584px ;
+    /* max-height: 584px ; */
     background-color: #FCFCFC;
     border-radius: 4px ;
+    overflow: auto;
 }
 
 .overlay-bottom-close-button {
@@ -563,4 +570,16 @@ img {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     border: none;
+}
+
+.overlay-bottom-wrapper-input-icon {
+    fill: #2E2F42;
+    position: relative;
+}
+
+.overlay-bottom-wrapper-input-icon svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
 }
