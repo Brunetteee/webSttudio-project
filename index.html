@@ -342,6 +342,45 @@
                 </ul>
             </div>
         </div>
-        </footer>
+    </footer>
+
+    <!-- -------overlay-bottom------- -->
+
+     <div class="overlay-bottom">
+        <div class="overlay-bottom-wrapper">
+            <button type="button" class="overlay-bottom-close-button">
+                <svg width="8" height="8" class="overlay-bottom-wrapper-icon">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="overlay-bottom-wrapper-headerline"> 
+                Leave your contacts and we will call you back
+            </p>
+
+            <form>
+                <div class="overlay-bottom-wrapper-input">
+                    <label for="overlay-name" class="fotm-label" >Name</label>
+                    <input type="text" class="form-input" id="overlay-name">
+                </div>
+                <div class="overlay-bottom-wrapper-input">
+                    <label for="overlay-phone" class="fotm-label" >Phone</label>
+                    <input type="tel" class="form-input" id="overlay-phone">
+                </div>
+                <div class="overlay-bottom-wrapper-input">
+                    <label for="overlay-email" class="fotm-label" >Email</label>
+                    <input type="email" class="form-input" id="overlay-email">
+                </div>
+                <div class="overlay-bottom-wrapper-input">
+                    <label for=" overlay-textarea" class="fotm-label">Comment</label>
+                    <textarea placeholder="Text input" class="form-textarea" id="overlay-textarea" ></textarea>
+                </div>
+                <div class="overlay-bottom-wrapper-input">
+                    <input type="checkbox" id="overlay-checkbox" class="form-checkbox">
+                    <label for="overlay-checkbox" class="fotm-label">I accept the terms and conditions of the <a href="" class="highlight">Privacy Policy</a></label>
+                </div>
+                <button type="submit" class="overlay-bottom-button-send">Send</button>
+            </form>
+        </div>
+     </div>
 </body>
 </html>
